@@ -21,5 +21,7 @@ public class Main {
         System.out.println(cantidad);
         System.out.println(cantidad instanceof double);
 
+        var coche1=new coche ("Toyota");
+        var coche2=new coche ("Ford",150);
     }
 }
