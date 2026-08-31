@@ -4,8 +4,9 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-//@Setter
-//@Getter
+@Setter
+@Getter
+//@Data
 @Data
 public class PersonaX {
     String nombre;

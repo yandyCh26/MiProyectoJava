@@ -11,7 +11,6 @@ public class Loro implements Animal{
     public void dormir() {
         System.out.println("Zzz...zzz..zz");
     }
-
     public void cantar(){
         System.out.println("Lalalalala....");
     }
