@@ -1,0 +1,18 @@
+package pe.edu.upeu.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class comboBoxOption {
+    String key;
+    String value;
+
+    @Override
+    public String toString(){
+        return value;
+}
+    }
